@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 
 # ---- Title ----
-st.title("🌊 Flood Prediction App")
+st.title("Flood Prediction")
 st.write("Enter feature values below, then click **Predict** to see flood risk.")
 
 # ---- Load preprocessor, PCA, and model ----
@@ -51,3 +51,4 @@ if st.button("Predict"):
 
     except Exception as e:
         st.error(f"An error occurred during prediction: {e}")
+
